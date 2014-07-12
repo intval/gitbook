@@ -41,7 +41,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/gitbook.git"
+        "url": "https://github.com/OrelBeY/gitbook.git"
     },
     "keywords": [
         "git",
@@ -51,7 +51,7 @@
     "author": "FriendCode <contact@friendco.de>",
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/GitbookIO/gitbook/issues"
+        "url": "https://github.com/OrelBeY/gitbook/issues"
     },
     "contributors": [
         {
