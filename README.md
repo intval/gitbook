@@ -3,6 +3,11 @@ GitBook
 
 [![Build Status](https://travis-ci.org/GitbookIO/gitbook.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook)
 
+**This is a private fork of some people trying to make GitBook compatible with a certain book (written an a RTL language). This is just temporary, until GitBook offers RTL support and a better documentation and API for plugins.**  
+**For now we just forked it, until we have time to assist in making the official GitBook better.**
+
+_____
+
 GitBook is a command line tool (and Node.js library) for building beautiful books and exercises using GitHub/Git and Markdown. Here is an example: [Learn Javascript](https://www.gitbook.io/book/GitBookIO/javascript). You can publish book easily online using [gitbook.io](https://www.gitbook.io) and an [editor](https://github.com/GitbookIO/editor) is available for Windows, Mac and Linux. You can follow [@GitBookIO](https://twitter.com/GitBookIO) on Twitter. Complete documentation is available at [help.gitbook.io](http://help.gitbook.io/).
 
 ![Image](https://raw.github.com/GitbookIO/gitbook/master/preview.png)
