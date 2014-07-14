@@ -1,0 +1,87 @@
+article {
+	page-break-after: always;
+}
+
+body {
+	direction: rtl;
+	font-family: Arial;
+	line-height: 1.3 !important;
+}
+
+body {
+	width: 700px;
+	margin: 0 auto;
+	font-size: larger;
+}
+
+pre, code {
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+img {
+	display: block;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	color: #17365D;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #4F81BD;
+}
+
+h3 {
+	font-size: 1.2em;
+	color: #6B95C7;
+}
+
+p {
+	text-align: justify;
+}
+
+.info {
+	color: #DF832B;
+}
+
+pre {
+	color: #0000BB;
+	word-wrap: break-word;
+}
+
+pre, blockquote {
+	background: #FFF !important;
+}
+
+body pre code:not([class]) {
+	color: #000000 !important;
+}
+.hljs-comment {
+	color: #FF8000 !important;
+}
+
+.hljs-title {
+	color: #0000BB !important;
+}
+
+.hljs-variable,.hljs-attribute,.hljs-tag,.hljs-regexp,.ruby .hljs-constant,.xml .hljs-tag .hljs-title,.xml .hljs-pi,.xml .hljs-doctype,.html .hljs-doctype,.css .hljs-id,.css .hljs-class,.css .hljs-pseudo {
+	color: #0000BB !important;
+}
+
+.hljs-number,.hljs-preprocessor,.hljs-pragma,.hljs-built_in,.hljs-literal,.hljs-constant {
+	color: #0000BB !important;
+}
+
+.hljs-string,.hljs-value,.hljs-inheritance,.hljs-header,.ruby .hljs-symbol,.xml .hljs-cdata {
+	color: #DD0000 !important;
+}
+
+.hljs-keyword,.javascript .hljs-function,.hljs-params {
+	color: #007700 !important;
+}
