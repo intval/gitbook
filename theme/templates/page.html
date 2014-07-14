@@ -3,6 +3,7 @@
 {% block title %}{{ title }}{% endblock %}
 
 {% block style %}
+<link rel="stylesheet" href="{{ staticBase }}/custom.css">
 <link rel="stylesheet" href="{{ staticBase }}/print.css">
 {% endblock %}
 
@@ -34,12 +35,12 @@
     {% endfor %}
 {% endmacro %}
 
+
 {% set exercise = 1 %}
 {% block content %}
     {# Pages content #}
     {% for item in progress.chapters %}
-    <article id="{{ article.path }}">
-        <h1 class="book-chapter book-chapter-{{ item.level|lvl }}">{{ item.title }}</h1>
+    <article>
         {% if pages[item.path] %}
         {{ articleContent(pages[item.path].content) }}
         {% endif %}
@@ -51,7 +52,6 @@
     {% if exercise > 1 %}
         {% set exercise = 1 %}
         <article>
-            <h1 class="book-chapter book-chapter-1">Exercise Solutions</h1>
             <h1>Exercise Solutions</h1>
 
             {% for item in progress.chapters %}
