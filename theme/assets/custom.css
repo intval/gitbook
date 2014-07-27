@@ -52,7 +52,8 @@ p {
 
 pre {
 	color: #0000BB;
-	word-wrap: break-word;
+	word-wrap: break-word; /* IE 7 */
+	white-space: pre-wrap;
 }
 
 pre {
