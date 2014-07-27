@@ -1,6 +1,6 @@
 {
     "name": "gitbook",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "homepage": "http://www.gitbook.io/",
     "description": "Library and cmd utility to generate GitBooks",
     "main": "lib/index.js",
@@ -22,7 +22,7 @@
         "resolve": "0.6.3",
         "tiny-lr-fork": "0.0.5",
         "gitbook-plugin": "0.0.2",
-        "gitbook-plugin-mathjax": "0.0.3",
+        "gitbook-plugin-mathjax": "0.0.4",
         "gitbook-plugin-livereload": "0.0.1"
     },
     "devDependencies": {
