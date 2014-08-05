@@ -19,6 +19,10 @@ pre, code {
 	unicode-bidi: embed;
 }
 
+code[dir=rtl], pre[dir=rtl] {
+	direction: rtl;
+}
+
 img {
 	display: block;
 }
