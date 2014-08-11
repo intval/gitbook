@@ -94,12 +94,12 @@ body pre code:not([class]) {
 blockquote {
 	background: #f9f9f9;
 	border-right: 6px solid #ccc;
-	margin: 0.25em 0;
-	padding: 0.25em 40px;
+	margin: 0.25em 0 !important;
+	padding: 0.25em 45px !important;
 	position: relative;
-	margin: 1.5em 5px;
-	padding: 1em 20px;
 }
+
+
 
 blockquote:before {
 	color: #ccc;
@@ -110,4 +110,22 @@ blockquote:before {
 	position: absolute;
 	right: -1.5%; /* so it wouldn't be too close to the border in PDF */
 	top: -3%;
+}
+
+
+blockquote p
+{
+	margin: auto;
+}
+
+.codelink
+{
+	margin-top:-15px;
+	font-size:13px;
+	text-align:center;
+}
+
+.codelink a
+{
+	color:grey;
 }
